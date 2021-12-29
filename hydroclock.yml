@@ -1,0 +1,25 @@
+# Configuration for HydroClock
+
+# Notification settings
+#notification:
+  # Intervals between notifications in minutes.
+  #
+  # Valid values: 60, 30, 20, 15
+  #intervals: 20 
+  
+  # Notifications type
+  #
+  # Valid values are: light/hard. Light notification means standard os
+  # notifications, while hard means popup-windows that need interaction
+  # to leave you alone. The last one is for people who want to replace
+  # their caring mother/wife/etc. in terms of reminding them to drink...
+  #type: light
+
+# Glass Volume in milliliters (ml)
+#
+# Valid values are all integers that are >= 230
+#volume: 230
+
+# Valid values are: female/male. Since the calculated amount of water that
+# you should drink varies on your sex.
+#sex: male
