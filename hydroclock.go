@@ -113,7 +113,7 @@ func main() {
 
 	mainRoutine := func() {
 		for {
-			mainTimer := time.NewTimer(time.Duration(config.Notification.Freq) * time.Second)
+			mainTimer := time.NewTimer(time.Duration(config.Notification.Freq) * time.Minute)
 
 			for i := 0.0; i < drinksPerGlass-1; i++ {
 				select {
